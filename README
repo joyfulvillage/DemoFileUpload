@@ -1,5 +1,21 @@
-This is a minimum demo of file upload in play with simple word count
+This is a minimum demo of file upload in Play framework with simple word count
 =====================================
 
 Simply startup the application with Play 2.2.1
 And hit the browser with "localhost:9000" for demo
+A simple file upload form is presented and select a text file to upload.
+The result is in JSON format:
+{
+    filename: [Filename that user upload],
+    wordcount: [Number of words in the file],
+    countMap: {
+        [mapping for word occurance]   
+    }
+}
+    
+
+TODO:
+Logging - No logging was done
+Filetype validation - now is "assuming" user upload a valid text file
+More text case - that's always better
+
