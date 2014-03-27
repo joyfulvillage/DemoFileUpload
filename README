@@ -9,7 +9,7 @@ The result is in JSON format:
     filename: [Filename that user upload],
     wordcount: [Number of words in the file],
     countMap: {
-        [mapping for word occurance]   
+        [word] -> [word occurance]   
     }
 }
     
@@ -17,5 +17,5 @@ The result is in JSON format:
 TODO:
 Logging - No logging was done
 Filetype validation - now is "assuming" user upload a valid text file
-More text case - that's always better
+More test case - that's always better
 
