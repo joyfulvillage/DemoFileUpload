@@ -1,0 +1,5 @@
+This is a minimum demo of file upload in play with simple word count
+=====================================
+
+Simply startup the application with Play 2.2.1
+And hit the browser with "localhost:9000" for demo
